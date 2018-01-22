@@ -9,3 +9,97 @@
 	padding: 0;
 	margin: 0;
 	}
+	body{
+		background-color: rgb(253, 253, 228);
+		width: 1000px;	
+	}
+	h1, h2{
+		text-align: center;
+		display: inline;
+		font-family: 'Open Sans', sans-serif;
+	}
+	h1{
+		font-size: 1.500em;
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	h2{
+		font-size: 1.125em;
+		float: right;
+		margin-top: 10px;
+		margin-right: 300px;
+	}
+	#main-container{
+		background-image: linear-gradient(rgb(65, 25, 25), rgb(226, 226, 226), rgb(65, 25, 25));
+		width: 700px;
+		height: 1000px;
+		margin: 20px;
+	}
+	.my-pic{
+		width: 320px;
+		height: 200px;
+		margin: 15px 7px 15px 15px;
+		border: 5px solid lightgrey;
+		float: left;
+	}
+	p{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 0.625em;
+	}
+	.about-box{
+		width: 320px;
+		height: 210px;
+		background-color: azure;
+		margin: 15px 15px 15px 7px;
+		float: right;
+	}
+	.lm-head{
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		margin: 0;
+		text-align: left;
+		text-indent: 5px;
+		background-image: linear-gradient(gray, rgb(182, 182, 182), gray);
+		height: 25px;
+		width: 210px;
+	}
+	.lm-head2{
+		font-size: 12px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		margin:0;
+		text-align: left;
+		text-indent: 5px;
+		background-image: linear-gradient(gray, rgb(182, 182, 182), gray);
+		height: 20px;
+		width: 210px;
+	}
+	.laMode, .famContact, .fiveEleven{
+		text-align: center;
+		width: 210px;
+		height: 500px;
+		color: white;
+		background-color: grey;
+		display: inline-block;
+	}
+	.laMode{
+		margin: 15px 7px 15px 15px;	
+	}
+	.famContact{
+		margin: 15px 7px 15px 7px;	
+		}
+	.fiveEleven{
+		margin: 15px 15px 15px 7px;	
+	}
+		
+	.lamode-pic{
+		width: 210px;
+	}
+	.fam-pic{
+		width: 210px;
+	}
+	.five-Elv{
+		width: 210px;
+	}
