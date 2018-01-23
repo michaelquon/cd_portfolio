@@ -10,96 +10,180 @@
 	margin: 0;
 	}
 	body{
-		background-color: rgb(253, 253, 228);
-		width: 1000px;	
+		background-color: rgb(255, 255, 255);
+		margin: 0 auto;
 	}
-	h1, h2{
-		text-align: center;
-		display: inline;
-		font-family: 'Open Sans', sans-serif;
+	.top-header{
+		background-color: rgb(255, 255, 255);
+		width:970px;
+		height:40px;
+		padding-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	h1{
-		font-size: 1.500em;
-		margin-left: 30px;
-		margin-top: 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 36px;
+		display: inline-block;
+		padding-left: 20px;
+
 	}
 	h2{
-		font-size: 1.125em;
-		float: right;
-		margin-top: 10px;
-		margin-right: 300px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 28px;
+		display: inline-block;
+		margin-left: 235px;
 	}
+	
 	#main-container{
-		background-image: linear-gradient(rgb(65, 25, 25), rgb(226, 226, 226), rgb(65, 25, 25));
-		width: 700px;
-		height: 1000px;
-		margin: 20px;
+		background-image: linear-gradient(-45deg, rgb(65, 25, 25), rgb(158, 107, 107), rgb(65, 25, 25));
+		width: 970px;
+		height: 990px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.my-pic{
-		width: 320px;
-		height: 200px;
-		margin: 15px 7px 15px 15px;
-		border: 5px solid lightgrey;
-		float: left;
+		width: 450px;
+		margin: 20px;
+		border: 5px solid gray;
+		
+		
 	}
-	p{
+	.box-aboutme{
+		background-color: rgb(221, 221, 221);
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
-		font-size: 0.625em;
-	}
-	.about-box{
-		width: 320px;
-		height: 210px;
-		background-color: azure;
-		margin: 15px 15px 15px 7px;
-		float: right;
-	}
-	.lm-head{
 		font-size: 14px;
-		font-family: 'Open Sans', sans-serif;
-		font-weight: 700;
-		margin: 0;
-		text-align: left;
-		text-indent: 5px;
-		background-image: linear-gradient(gray, rgb(182, 182, 182), gray);
-		height: 25px;
-		width: 210px;
+		width: 420px;
+		height: 275.05px;
+		margin-top: 30px;
+		padding: 10px;
+		display: inline-block;
+		vertical-align: top;
 	}
-	.lm-head2{
-		font-size: 12px;
+	.about-head{
+		background-image: linear-gradient(grey, rgb(184, 184, 184), grey);
+		height: 30px;
+		width: 420px;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 700;
-		margin:0;
-		text-align: left;
-		text-indent: 5px;
-		background-image: linear-gradient(gray, rgb(182, 182, 182), gray);
-		height: 20px;
-		width: 210px;
+		margin: -20px 0px 0px -10px;
+		padding: 10px;
+		color: white;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.lamode-pic, .fam-pic, .five-Elv{
+		display: inline-block;
+		vertical-align: top;
+		width: 290px;
+		margin-left: -10px;
+		border-bottom: 10px solid rgba(255, 255, 255, 0.007);
 	}
 	.laMode, .famContact, .fiveEleven{
-		text-align: center;
-		width: 210px;
-		height: 500px;
-		color: white;
-		background-color: grey;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		width: 270px;
+		height: 400px;
+		background-color: rgb(221, 221, 221);
+		padding: 10px;
 		display: inline-block;
+		vertical-align: top;
 	}
 	.laMode{
-		margin: 15px 7px 15px 15px;	
+		margin: 0px 0px 0px 20px;
 	}
 	.famContact{
-		margin: 15px 7px 15px 7px;	
-		}
+		margin: 0px 22px 0px 25px;
+	}
 	.fiveEleven{
-		margin: 15px 15px 15px 7px;	
+		margin: 0px 22px 0px 0px;
 	}
-		
-	.lamode-pic{
-		width: 210px;
+	.lm-head{
+		background-image: linear-gradient(grey, rgb(184, 184, 184), grey);
+		height: 30px;
+		width: 280px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		color: white;
+		padding: 10px 0px 0px 10px;
+		margin: -10px -10px 0px -10px;
 	}
-	.fam-pic{
-		width: 210px;
+	.lm-head2, .lm-head3, .lm-head4{
+		background-image: linear-gradient(grey, rgb(184, 184, 184), grey);
+		height: 25px;
+		width: 285px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		color: white;
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 5px;
+		padding-left: 5px;
+		margin: 0px,20px,20px,20px;
 	}
-	.five-Elv{
-		width: 210px;
+	.lm-head2{
+		margin-left: 20px;
 	}
+	.lm-head3{
+		margin-left: 25px;
+	}
+	.lm-head4{
+		margin-left: 22px;
+	}
+	.tech-box1, .tech-box2, .tech-box3{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		width: 290px;
+		height: 160px;
+		background-color: rgb(221, 221, 221);
+		display: inline-block;
+		vertical-align: top;
+		margin: 0px,20px,20px,20px;
+	}
+	.tech-box1{
+		margin-left: 20px;
+	}
+	.tech-box2{
+		margin-left: 25px;
+	}
+	.tech-box3{
+		margin-left: 22px;
+	}
+	.dev-logos{
+		width: 40px;
+		height: 40px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		margin-left: 13px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.tech-button1, .tech-button2, .tech-button3{
+		background-color: green;
+		border: 1px solid black;
+		height: 20px;
+		border-radius: 10px;
+		font-weight: 700;
+		font-size: 10px;
+		text-align: center;
+		padding: 0px 5px;
+		display: inline-block;
+		box-shadow: 3px 3px 8px #4d4d4d;
+	}
+		.tech-button1{
+			margin-top: 15px;
+			margin-left: 40%;
+		}
+		.tech-button2{
+			margin-top: 15px;
+			margin-left: 35%;
+		}
+		.tech-button3{
+			margin-top: 15px;
+			margin-left: 40%;
+		}
